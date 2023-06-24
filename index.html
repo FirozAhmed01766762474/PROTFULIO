@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Protfolio Website Firoz_Ahmed</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bdf3003772.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="img/Firoz-logo.png" class="logo">
+                <ul id="sidemanue">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#protfulio">Protfolio</a></li>
+                    <li><a href="#contract">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemanue()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmanue()"></i>
+            </nav>
+            <!--<div class="header-text">
+                <P>UI/UX Designer</P>
+                <h1>Hi, I'am <span>Firoz </span> <br> From Bangladesh </h1>
+            </div>-->
+             <div class="row">
+                <div class="home-left">
+                    <!--<div class="header-text">
+                        <P>UI/UX Designer</P>
+                        <h1>Hi, I'am <span>Firoz </span> <br> From Bangladesh </h1>
+                    </div>-->
+                    <div class="header-text">
+                        <P>Hello It's Me</P>
+                        <h1><span>Firoz Ahmed </span></h1>
+                        <h3>And I'am a <span class="text5"></span></h3>
+                    </div>
+                </div>
+                <div class="home-right">
+                    <img src="img/Firozfirst.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--------about------>
+    <div id="about">
+        <div class="cotainer">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/Firoz123.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Seeking for a Software Development Position in a fast growing organization with structured environment to utilize expertise in software development and testing, as well as deployment and support. Coming with well boned skills in computer science in addition to excellent communication skills.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Programming Background</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>C</span><div class="C"><div class="CC"></div></li>
+                            <li><span>C++</span><div class="C"><div class="Cpp"></li>
+                            <li><span>Java</span><div class="C"><div class="Java"></li>
+                            <li><span>C#</span><div class="C"><div class="Python"></li>
+                            <li><span>HTML</span><div class="C"><div class="HTMLL"></li>
+                            <li><span>CSS</span><div class="C"><div class="CSS"></li>
+                            <li><span>JavaScript</span><div class="C"><div class="Script"></li>
+                            <li><span>PHP</span><div class="C"><div class="PHP"></li>
+                            <li><span>Bootstrap</span><div class="C"><div class="Boot"></li>
+                            <li><span>ASP.NET(core) MVC</span><div class="C"><div class="ASP"></li>
+                            <li><span>SQL, MySQL</span><div class="C"><div class="SQL"></li>
+                            <li><span>Git, GitHub</span><div class="C"><div class="Git"></li>
+                                           
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span><h2>Solved 350+ Online Problems</h2></span></li>
+                            <li><span>Codeforces</span><br><a href="https://codeforces.com/profile/firozahhmedcse16">firozahhmedcse16</a></li>
+                            <li><span>Leetcode</span><br><a href="https://leetcode.com/firozahmed1607118/">firozahmed1607118</a></li>
+                            <li><span>geeksforgeeks</span><br><a href="https://leetcode.com/firozahmed1607118/">ahmed1607118</a></li>               
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                       <!--- <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building Andriod/ios ball</li>             
+                        </ul>--->
+                        <div class="grid-container12">
+                            <div class="grid-item">
+                                <h3>Khulna University of Engineering & Technology</h3>
+                                <h2><span class="year">2017-2023</span></h2>
+                                <p><br><b>B.Sc. in Computer Science and Engineering. CGPA: 3.13</b><br><br></p>
+                                <p><b> Main courses: </b>Data Structure, Algorithm Analysis & Design, Object Oriented Programming, Software Engineering, Database Management, Operating Systems, Theory of Computation, Compiler Design, Machine Learning, Image Processing, Networking, Artificial Intelligence, Computer Graphics, Data Mining, Natural Language Processing.</p>
+                            </div>
+                            <div class="grid-item">
+                                <h3>Ullapara Science College, Ullapara, Sirajgonj, Bangladesh</h3>
+                                <p><br> <br>Higher Secondary Certificate, 2016. GPA: 5.00  <span class="year">2014-2016</span></p>
+
+                            </div>
+                            <div class="grid-item">
+                                <h3>Ullapara Adarsha High School, Ullapara,Sirajgonj, Bangladesh</h3>
+                                <p><br> <br>Secondary School Certificate (SSC), 2014. GPA: 5.00 <span class="year">2012-2014</span></p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------services-------->
+    <div id="services">
+        <div class="cotainer">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>No Services Available now</p>
+                    <a href="#services">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>No Services Available now</p>
+                    <a href="#services">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>No Services Available now</p>
+                    <a href="#services">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!------------------------protfulio----------->
+<div id="protfulio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="img/work-1.png">
+                <div class="layer">
+                    <h3>Online Quize App</h3>
+                    <p>This App is Used for Online Quize, User can see their answer is right or worong and it also show there result instantly.</p>
+                    <a href=" https://firozahmed01766762474.github.io/QUIZE-APP/"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/work-2.png">
+                <div class="layer">
+                    <h3>E-Ticket Application for Movie</h3>
+                    <p>This is a webside for Buying Online Movie Ticket and it's also gives details about movie, actor , producer , the price and aloso lot's of thing about this movie</p>
+                    <a href="https://github.com/FirozAhmed01766762474/Coplete-Ecommerce-ASP.NET-MVC-Application"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/PlaneGame4.jpg">
+                <div class="layer">
+                    <h3>Plane Game</h3>
+                    <p>This is a Plane Game using OpenGl of C++ Library</p>
+                    <a href="https://github.com/FirozAhmed01766762474/Plane_Game"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#protfulio" class="btn">See More</a>
+    </div>
+</div>
+
+<!---------------contract-------------------->
+<div id="contract">
+    <div class="container">
+        <div class="row">
+            <div class="contract-left">
+                <h1 class="sub-title">Contract Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>firozahhmedcse16@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>01701605937</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100014204732833"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/firoz_ahmed16/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/FirozAhmed01766762474"><i class="fa-brands fa-square-github"></i></a>
+                    <a href="https://www.linkedin.com/in/firoz-ahmed-272065241/"><i class="fa-brands fa-linkedin"></i></a>  
+                </div>
+                <a href="img/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contract-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+    <P>This is Made by <i class="fa-solid fa-heart"></i> Firoz Ahmed</P>
+    </div>
+</div>
+<script>
+    var typed = new Typed(".text5",{
+        strings:["Software Engineer","Problem Solver","FootBaller"],
+        typeSpeed:100,
+        backSpeed:100,
+        backDealy:1000,
+        loop:true
+    });
+ </script>
+
+   <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+   </script> 
+   <script>
+    var sidemanue= document.getElementById("sidemanue");
+    function openmanue(){
+        sidemanue.style.right= "0";
+    }
+    function closemanue(){
+        sidemanue.style.right= "-200px";
+    }
+   </script>
+   <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyQ2Vr6lLPM9sYhLUURUS6-ZHiG9wtLpzrnO5GDzxIwPHPPh66x1n5VhxbTb3Av3e_rhQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML= "Message Sent Successfully";
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
